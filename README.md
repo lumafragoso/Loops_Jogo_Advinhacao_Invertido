@@ -11,7 +11,7 @@ To choose a random number between 0 and 10, use the random.randint(0, 10) functi
 Vamos inverter os papéis daquele Jogo da Advinhação em que tínhamos que descobrir um número em que o computador escolhia aleatoriamente. Ou seja, vamos escolher um número e o computador terá que advinhar. Assim, escreva um programa que pede ao usuário para "pensar" em um número inteiro entre 0 e 10 e informar este número. O computador deverá sortear um número entre 0 e 10 até que ele acerte qual foi o número pensado pelo usuário. O programa deverá "ajudar o computador" da mesma forma que a versão "humana" do jogo, isto é, para cada tentativa errada, ajustar a nova escolha aléatória observando se o número pensado é menor ou maior que o informado pelo usuário. O programa deverá ficar em loop até que o computador acerte o número escolhido pelo usuário, mostrando no final quantos palpites foram necessários para acertar.
 Para escolher um número aleatório entre 0 e 10, use a função random.randint(0, 10) depois de importar a biblioteca random.
 
-1. Exemple / Exemplo
+1. Example / Exemplo
 ```py
 
 Escolha um número entre 0 e 10, que o computador tentará adivinhar: 5
